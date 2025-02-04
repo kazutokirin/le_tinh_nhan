@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+body {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(255, 192, 203);
+}
+
+.container .tenor-gif-embed {
+  display: flex;
+  max-width: 350px;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  gap: 20px;
+  max-width: 500px;
+  margin: 20px;
+}
+
+.btn a {
+  text-decoration: none;
+  color: black;
+  background: rgb(255, 255, 255);
+  border-radius: 10px;
+  box-shadow: 0, 5rem 1rem 3rem hsla(0, 0%, 0%, 0.677);
+  font-size: 25px;
+  padding: 10px 30px;
+}
+
+.container .btn {
+  display: flex;
+  gap: 150px;
+}
